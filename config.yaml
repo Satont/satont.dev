@@ -1,0 +1,69 @@
+baseURL: 'http://blog.satont.dev/'
+languageCode: 'en-us'
+title: "Satont's Blog"
+theme: "PaperMod"
+paginate: 5
+buildDrafts: false
+enableEmoji: true
+defaultContentLanguage: ru
+minify:
+  disableXML: true
+
+menu:
+  main:
+    - identifier: blog
+      name: Blog
+      url: /posts/
+      weight: 10
+    # - identifier: example
+    #   name: example.org
+    #   url: https://example.org
+    #   weight: 30
+
+params:
+  home:
+    - HTML
+    - RSS
+    - JSON
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+
+  homeInfoParams:
+    Title: "Hey, I'm Satont ✌️"
+    Content: >
+        I'm a 24 year old software engineer from the Russian Federation. I'm interested in backend Node.js development including large scale applications and performant code.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/Satont"
+    - name: Twitch
+      url: "https://twitch.tv/s4tont"
+    - name: Telegram
+      url: "https://t.me/satont"
+    - name: Discord
+      url: "https://dsc.bio/satont"
+
+  editPost:
+    URL: "https://github.com/satont/satont.dev/content"
+    Text: "Suggest Changes"
+    appendFilePath: true
+
+  assets:
+    disableHLJS: true
+
+  services:
+    instagram:
+      disableInlineCSS: true
+    twitter:
+      disableInlineCSS: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+  
+  ru:
+    languageName: "Russian"
+    weight: 1
