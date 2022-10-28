@@ -1,6 +1,6 @@
 baseURL: 'http://blog.satont.dev/'
 languageCode: 'en-us'
-title: "Satont's Blog"
+title: "Satont"
 theme: "PaperMod"
 paginate: 5
 buildDrafts: false
@@ -33,7 +33,7 @@ params:
   homeInfoParams:
     Title: "Hey, I'm Satont ✌️"
     Content: >
-        I'm a 24 year old software engineer from the Russian Federation. I'm interested in backend Node.js development including large scale applications and performant code.
+        I'm a 24 year old software engineer from the Russian Federation. I'm interested in backend Node.js and Golang development including large scale applications and performant code.
 
   socialIcons:
     - name: github
