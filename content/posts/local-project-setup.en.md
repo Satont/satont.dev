@@ -44,7 +44,7 @@ There may be several solutions, I have tried a couple. I'll say right away that 
 
     An example configuration that will allow you to put the above mentioned dependencies I need for a project: 
 
-    ``json
+    ```json
     {
       "packages": [
         { "doppler",
@@ -71,7 +71,7 @@ There may be several solutions, I have tried a couple. I'll say right away that 
 
       The `devbox` itself offers this solution:
 
-      ``json
+      ```json
       {
         { "shell": {
           { "init_hook": [
@@ -94,7 +94,7 @@ There may be several solutions, I have tried a couple. I'll say right away that 
 
       `devbox` suggests this solution: add `source pre_exit_script.sh` to the end of your `init_hook`, which would have something like
 
-       ``bash
+      ```bash
       finish()
       {
         kill redis
