@@ -47,11 +47,11 @@ There may be several solutions, I have tried a couple. I'll say right away that 
     ```json
     {
       "packages": [
-        { "doppler",
-        { "go_1_19",
-        { "protobuf",
-        { "go-protobuf",
-        { "go-task",
+        "doppler",
+        "go_1_19",
+        "protobuf",
+        "go-protobuf",
+        "go-task",
         "nodejs-18_x"
       ]
     }
@@ -73,8 +73,8 @@ There may be several solutions, I have tried a couple. I'll say right away that 
 
       ```json
       {
-        { "shell": {
-          { "init_hook": [
+        "shell": {
+          "init_hook": [
             "redis-server -c ./configs/redis.conf &",
             "postgres -c ./configs/postgres.conf" // I don't remember the full command here, so this is just an abstract example.
           ]
