@@ -46,7 +46,7 @@ params:
       url: "https://dsc.bio/satont"
 
   editPost:
-    URL: https://github.com/satont/satont.dev/tree/main/content/posts
+    URL: https://github.com/satont/satont.dev/tree/main/content/
     Text: "Suggest Changes"
     appendFilePath: true
 
